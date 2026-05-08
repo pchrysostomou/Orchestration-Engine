@@ -72,7 +72,7 @@ On first start, an API key is printed to the console:
 ```
 ╔══════════════════════════════════════════════════╗
 ║  Default API key created — save it, shown once!  ║
-║  Key: wfe_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx        ║
+║  Key: wfe_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       ║
 ╚══════════════════════════════════════════════════╝
 ```
 
