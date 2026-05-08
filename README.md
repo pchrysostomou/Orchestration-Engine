@@ -302,7 +302,3 @@ app/src/main/kotlin/com/workflowengine/
 | `REDIS_URL` | `redis://localhost:6380` | Redis URL |
 
 ---
-
-## License
-
-MIT
