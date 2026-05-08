@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs cat)",
+      "Bash(JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home ./gradlew test --rerun --info)",
+      "Bash(JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home ./gradlew test --rerun-tasks)",
+      "Bash(grep -v \"^$\")",
+      "Bash(bc)",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home ./gradlew compileTestKotlin)",
+      "Bash(grep -r 'fun `' \"/Users/prodromoschrysostomou/Orchestration Engine/app/src/test\" --include=\"*.kt\")"
+    ]
+  }
+}

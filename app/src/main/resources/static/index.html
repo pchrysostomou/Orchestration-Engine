@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workflow Engine</title>
+  <link rel="stylesheet" href="/styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"/>
+</head>
+<body>
+
+<header>
+  <div class="dot"></div>
+  <h1>Workflow Engine</h1>
+  <span>Kotlin · Ktor · Coroutines · PostgreSQL</span>
+</header>
+
+<aside>
+  <h2>Workflows</h2>
+  <div id="workflow-list">
+    <div class="empty">Loading…</div>
+  </div>
+</aside>
+
+<main>
+  <div class="two-col">
+    <div>
+      <div class="panel-title">Recent Runs</div>
+      <div id="run-list">
+        <div class="empty">No runs yet.</div>
+      </div>
+    </div>
+    <div>
+      <div class="panel-title">Run Detail</div>
+      <div id="run-detail">
+        <div class="empty">Select a run or trigger a workflow.</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>
